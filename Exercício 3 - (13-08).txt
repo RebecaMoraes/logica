@@ -1,0 +1,25 @@
+Algoritmo "semnome"
+//a) Leia um número inteiro;
+//b) Leia um segundo número inteiro;
+//c) Efetue a adição dos dois valores;
+//d) Apresente o valor calculado.
+
+
+Var
+n1,n2,adicao: real
+
+
+Inicio
+
+escreval ("Digite um número : ")
+leia (n1)
+
+escreval("Digite outro número : ")
+leia(n2)
+
+ adicao<- n1+n2
+
+escreval()
+escreval("A adição dos dois valores é de : ", adicao)
+
+Fimalgoritmo

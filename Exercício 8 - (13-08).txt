@@ -1,0 +1,40 @@
+Algoritmo "semnome"
+// Uma sorveteria vende três tipos de picolés. Sabendo-se que o picolé do
+//tipo 1 é vendido por R$ 0.50, o do tipo 2 por R$ 0.60 e o do
+//tipo 3 por R$ 0.75, faça um algoritmo que, para cada tipo de picolé,
+//mostre a quantidade vendida e o total arrecadado.
+
+Var
+picole1,picole2,picole3: real
+vendida: real
+total: real
+
+Inicio
+
+escreval("Quantos picolés de morango foram vendidos? : ")
+leia (picole1)
+
+escreval("Quantos picolés de uva foram vendidos? : ")
+leia(picole2)
+
+escreval("Quantos picolés de lichia foram vendidos? : ")
+leia (picole3)
+
+
+vendida<- picole1+picole2+picole3
+
+
+picole1<- 0.50 * picole1
+picole2<- 0.60 * picole2
+picole3<- 0.75 * picole3
+
+
+total<- picole1+ picole2+ picole3
+
+
+escreva(" A quantidade vendida de picolés foi de : ", vendida,"unidades")
+escreval()
+escreva(" O valor arrecado dos picolés foi de : R$",total)
+
+escreval()
+Fimalgoritmo

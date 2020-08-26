@@ -1,0 +1,23 @@
+Algoritmo "semnome"
+//Faça um algoritmo que leia uma temperatura em Fahrenheit e a apresente
+//convertida em graus Celsius. A fórmula de conversão
+//é C = (F – 32) * ( 5 / 9), na
+//qual F é a temperatura em Fahrenheit e C é a temperatura em Celcius.
+
+
+Var
+f: real
+graus: real
+
+Inicio
+
+escreva(" Digite quanto Graus está agora em Fahrenheit : ")
+leia (f)
+
+graus<- (f - 32) * (5/9)
+
+
+escreval()
+escreva("Fahrenheit convertidos em Graus Celsius é de : ", graus)
+
+Fimalgoritmo

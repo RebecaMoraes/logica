@@ -1,0 +1,17 @@
+Algoritmo "semnome"
+//Faça um algoritmo que imprima os múltiplos positivos de 7,
+//inferiores a 1000.
+
+Var
+multiplos: inteiro
+
+Inicio
+para multiplos de 0 ate 1000 passo 7 faca
+se multiplos mod 7 = 0 então
+escreva(multiplos)
+
+
+fimse
+fimpara
+
+Fimalgoritmo

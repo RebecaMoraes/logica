@@ -1,0 +1,23 @@
+Algoritmo "semnome"
+// Faça um algoritmo que calcule e apresente o valor do volume de uma
+//lata de óleo, utilizando a fórmula VOLUME = 3,14159 * RAIO * RAIO * ALTURA.
+
+Var
+volume,raio,altura: real
+
+
+Inicio
+Escreva("Digite o Raio de uma lata de óleo : ")
+leia(raio)
+
+escreva("Digite a Altura de uma lata de óleo : ")
+leia(altura)
+
+
+volume<- 3,14*raio*raio*altura
+
+
+escreval("O volume da lata de óleo é de : ", volume)
+
+
+Fimalgoritmo

@@ -1,0 +1,19 @@
+Algoritmo "semnome"
+// Ler um número inteiro e imprimir seu sucessor e antecessor.
+
+Var
+n,sucessor,antecessor: inteiro
+
+Inicio
+
+escreva("Digite um número: ")
+leia(n)
+
+
+escreval()
+escreval("Seu antecessor é: ", n-1)
+escreva("Seu sucessor é: ", n+1)
+
+
+
+Fimalgoritmo

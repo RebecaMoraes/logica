@@ -1,0 +1,49 @@
+Algoritmo "semnome"
+//Obtenha o valor para a variável HT (horas trabalhadas no mês);
+//b)Obtenha o valor para a variável VH (valor hora trabalhada):
+//c)Obtenha o valor para a variável PD (percentual de desconto);
+//d)Calcule o salário bruto => SB = HT * VH;
+//e)Calcule o total de desconto => TD = (PD/100)*SB;
+//f)Calcule o salário líquido => SL = SB – TD;
+//g)Apresente os valores de: Horas trabalhadas, Salário Bruto, Desconto, Salário Liquido.
+
+
+Var
+ht,vh,pd,salario_bruto,salario_liquido: real
+total_desconto:real
+
+
+Inicio
+
+
+escreval("Digite sua Hora de trabalho diária : ")
+leia(ht)
+
+escreval("Digite o valor recebido por Hora trabalhada : ")
+leia(vh)
+
+escreval("Digite o percentual de desconto: ")
+leia(pd)
+
+
+salario_bruto<- ht * vh
+
+total_desconto<- (pd/100) * salario_bruto
+
+salario_liquido<- salario_bruto - total_desconto
+
+
+escreva("O valor de Horas trabalhadas é de : ", vh)
+escreval()
+
+escreva("O valor do Salário Bruto é de : ", salario_bruto)
+escreval()
+
+escreval("O valor dos Descontos é de : ", total_desconto)
+escreval()
+
+escreval("O valor do Salário Líquido é de : ", salario_liquido)
+escreval()
+
+
+Fimalgoritmo

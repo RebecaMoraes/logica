@@ -1,0 +1,43 @@
+Algoritmo "semnome"
+// Um hotel cobra R$ 60.00 a diária e mais uma taxa de serviços. A taxa de
+//serviços é de:
+//• R$ 5.50 por diária, se o número de diárias for maior que 15;
+//• R$ 6.00 por diária, se o número de diárias for igual a 15;
+//• R$ 8.00 por diária, se o número de diárias for menor que 15.
+//Construa um algoritmo que mostre o nome e o total da conta de um cliente.
+
+Var
+diaria,taxa,total: real
+nome: caracter
+dias: inteiro
+
+
+Inicio
+
+escreva(" Nome do cliente : ")
+leia (nome)
+
+escreva(" Quantos dias vai ficar no hotel? : ")
+leia (dias)
+
+
+se dias> 15 então
+   taxa<-5.50
+
+se dias=15 entao
+   taxa<-6
+
+senao dias<15 entao
+taxa<-8
+
+
+diaria<-60
+total<- (taxa*dias) + (diaria*dias)
+
+escreval("Prezado cliente, ", " ", nome," ", " O total da conta é de: ",total)
+
+
+fimse
+fimse
+
+Fimalgoritmo
